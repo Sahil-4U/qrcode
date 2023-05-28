@@ -2,7 +2,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    width: 1440px;
+    width: 100vw;
+   
 }
 body{
     background-color: lightblue;
@@ -12,7 +13,6 @@ body{
 .main-div{
     margin:10% auto;
     width:20rem ;
-   
     display: flex;
     flex-direction: column;
     background:white;
@@ -33,6 +33,7 @@ body{
 }
 .simpletext-div>p{
     width: 20rem;
+    margin-bottom: 1%;
     padding: 1% 1.5%;
     text-align: center;
 }
