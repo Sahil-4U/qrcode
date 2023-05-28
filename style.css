@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 1440px;
+}
+body{
+    background-color: lightblue;
+    font-size: 16px;
+    overflow: hidden;
+}
+.main-div{
+    margin:10% auto;
+    width:20rem ;
+   
+    display: flex;
+    flex-direction: column;
+    background:white;
+    border-radius: 1rem;
+}
+.qrimage{
+    padding: 3%;
+}
+.qrimage>img{
+    width: 18.7rem;
+    height: inherit;
+    border-radius: 1rem;
+}
+.heading-div>h2{
+    width: 20rem;
+    padding: 1%;
+    text-align: center;
+}
+.simpletext-div>p{
+    width: 20rem;
+    padding: 1% 1.5%;
+    text-align: center;
+}
